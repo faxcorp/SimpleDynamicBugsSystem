@@ -1,6 +1,13 @@
 # SimpleDynamicBugsSystem
 Unreal Engine Marketplace product that generates dynamic bugs that snap to walls and objects and react to repulsion/attraction force (Distance Fields required)
 ___
+Video demonstration (YouTube) https://youtu.be/-KmQTHuKHcc \
+Try packaged game on your machine (Google Drive) https://drive.google.com/file/d/1CbTHzXU_AYn1fQ2CFVrjNvotYBUpOyiB/view?usp=sharing \
+This GPU Niagara System uses Distance Fields to create dynamically moving and animated (via shader vertex offsets controlled from texture map) StaticMesh bugs that snap to walls and objects with a possibility to be attracted or repulsed. \
+Multiple parameters exposed that control speed, repulsion strength, randomness, number of bugs.\
+The attraction/repulsion location and radius are controlled via Niagara Parameter Collection from any actor.\
+Distance Fields must be enabled in the game for this effect to work!\
+___
 ![tutorial](https://github.com/faxcorp/SimpleDynamicBugsSystem/assets/37246339/a56f6af9-51f9-43b7-9f92-56bb93852075)
 ___
 1.1 AttractionMultiplier: Multiplies this systems attraction value. Make it negative to invert repulsion to attraction\
