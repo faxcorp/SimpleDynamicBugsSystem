@@ -1,8 +1,8 @@
 # SimpleDynamicBugsSystem
 Unreal Engine Marketplace product that generates dynamic bugs that snap to walls and objects and react to repulsion/attraction force (Distance Fields required)\
----
+___
 ![tutorial](https://github.com/faxcorp/SimpleDynamicBugsSystem/assets/37246339/a56f6af9-51f9-43b7-9f92-56bb93852075)
----
+___
 1.1 AttractionMultiplier: Multiplies this systems attraction value. Make it negative to invert repulsion to attraction\
 1.2 MaxSpeed: Limits the speed of bugs\
 1.3 NewPosition: Ignore this one, its used only internally\
