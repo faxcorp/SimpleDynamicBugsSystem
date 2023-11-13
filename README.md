@@ -25,4 +25,4 @@ ___
 ___
 4.1 This is the blueprint responsible for setting the Niagara Parameter Collection variables for attraction/repulsion force. In this case I'm just getting the player pawn and adjust the location and size of the attraction force on tick. You might want to change it to something that suits your needs. In my game I used it to make bugs go away from the light of the flashlight that player controls.
 ___
-Thanks!\
+Thanks!
