@@ -1,16 +1,16 @@
 # SimpleDynamicBugsSystem
-Unreal Engine Marketplace product that generates dynamic bugs that snap to walls and objects and react to repulsion/attraction force (Distance Fields required)/
+Unreal Engine Marketplace product that generates dynamic bugs that snap to walls and objects and react to repulsion/attraction force (Distance Fields required)\
 
-![tutorial](https://github.com/faxcorp/SimpleDynamicBugsSystem/assets/37246339/a56f6af9-51f9-43b7-9f92-56bb93852075)/
+![tutorial](https://github.com/faxcorp/SimpleDynamicBugsSystem/assets/37246339/a56f6af9-51f9-43b7-9f92-56bb93852075)\
 
-1.1 AttractionMultiplier: Multiplies this systems attraction value. Make it negative to invert repulsion to attraction/
-1.2 MaxSpeed: Limits the speed of bugs/
-1.3 NewPosition: Ignore this one, its used only internally/
-1.4 RandomnessInMovement: Makes the movement more random/jittery or unified/fluid/
-1.5 Rate: Spawn rate - more = more bugs/
-1.6 MoveStopFrequency: makes bugs stop/start moving more or less frequently (less is more with this one, inverted)/
-1.7 AmountOfTimeWalking: makes bugs stop and stay for more or less time (range = -1 to 1)/
-1.8 SpawnRadius: size of area that the bugs spawn in/
+1.1 AttractionMultiplier: Multiplies this systems attraction value. Make it negative to invert repulsion to attraction\
+1.2 MaxSpeed: Limits the speed of bugs\
+1.3 NewPosition: Ignore this one, its used only internally\
+1.4 RandomnessInMovement: Makes the movement more random/jittery or unified/fluid\
+1.5 Rate: Spawn rate - more = more bugs\
+1.6 MoveStopFrequency: makes bugs stop/start moving more or less frequently (less is more with this one, inverted)\
+1.7 AmountOfTimeWalking: makes bugs stop and stay for more or less time (range = -1 to 1)\
+1.8 SpawnRadius: size of area that the bugs spawn in\
 
 2.1 Texture specifications:
   R = In this case I used this channel to make glow mask for the bug, its unused in marketplace product, you can do whatever you want with it
